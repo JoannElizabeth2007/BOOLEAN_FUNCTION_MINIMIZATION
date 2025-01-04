@@ -70,9 +70,15 @@ RegisterNumber: 24900609
 
 
 **Output**
-![Screenshot 2024-12-28 192050](https://github.com/user-attachments/assets/37143d4f-e6f1-4ca6-a4e4-fc13c3ba4cfb)
+
+![jo5](https://github.com/user-attachments/assets/56501447-f145-4162-9f23-ddbcf045bd88)
+
+![jo6](https://github.com/user-attachments/assets/f2be49ab-c51c-4131-89b8-ffbcbfcb4b15)
+
+
 
 **Result:**
+
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
 
