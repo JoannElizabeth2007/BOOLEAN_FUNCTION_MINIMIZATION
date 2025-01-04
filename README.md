@@ -14,10 +14,6 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
-**Logic Diagram**
-
-![TT](https://github.com/user-attachments/assets/1625ac0c-b392-4e61-8d64-5b41a0595efa)
-
 
 **Procedure**
 
@@ -31,48 +27,52 @@ Hardware – PCs, Cyclone II , USB flasher
 
 5.	For different input combinations generate the timing diagram.
 
+**Minimization**
+**F1**
+![jo 1](https://github.com/user-attachments/assets/5290d5f2-b7ff-4233-8d9c-50c0a5d4bceb)
+
+**F2**
+![jo2](https://github.com/user-attachments/assets/00e83349-95fd-41bd-8202-96f5a908624b)
+
+**Truth table**
+
+![JO3](https://github.com/user-attachments/assets/41794594-a6f8-4a3b-9c88-48b65c72ca38)
+
+![JO4](https://github.com/user-attachments/assets/768428a6-871b-45ff-b3dd-b30fd3318a1b)
+
+
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 ```
-module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
-input A,B,C,D,W,X,Y,Z;
-wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-output F1,F2;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-assign x6=(X)&(~Y)&(Z);
-assign x7=(~X)&(~Y)&(Z);
-assign x8=(~W)&(X)&(Y);
-assign x9=(W)&(~X)&(Y);
-assign x10=(W)&(X)&(Y);
-assign F1=x1|x2|x3|x4|x5;
-assign F2=x6|x7|x8|x9|x10;
+module funct1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+
+
+module funct2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
 
-Developed by:Joann elizabeth s RegisterNumber: 24900609*/
-
-
-**RTL realization**
-![Screenshot 2024-12-28 192050](https://github.com/user-attachments/assets/37143d4f-e6f1-4ca6-a4e4-fc13c3ba4cfb)
-
-**Output:**
-![Screenshot 2024-12-28 192036](https://github.com/user-attachments/assets/1116bb39-f828-4bc9-849b-b5992bb625ad)
+Developed by:JOANN ELIZABETH SAMUEL
+RegisterNumber: 24900609
 
 
 **RTL**
 
-**Timing Diagram**
 ![Screenshot 2024-12-28 192105](https://github.com/user-attachments/assets/1dcf3336-b2fb-4415-b0de-6f33a39753cb)
+
+
+**Output**
+![Screenshot 2024-12-28 192050](https://github.com/user-attachments/assets/37143d4f-e6f1-4ca6-a4e4-fc13c3ba4cfb)
 
 **Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
-
-Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
