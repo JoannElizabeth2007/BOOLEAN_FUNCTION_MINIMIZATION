@@ -66,7 +66,11 @@ RegisterNumber: 24900609
 
 **RTL**
 
-![Screenshot 2024-12-28 192105](https://github.com/user-attachments/assets/1dcf3336-b2fb-4415-b0de-6f33a39753cb)
+![image](https://github.com/user-attachments/assets/b129c2c1-c8b1-4504-86c9-c0533e948aaf)
+
+![image](https://github.com/user-attachments/assets/ac5a7378-548e-4eeb-bcaa-f51e3c499b10)
+
+
 
 
 **Output**
